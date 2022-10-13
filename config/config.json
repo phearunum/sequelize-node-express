@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "db@admin",
+    "database": "resgis_db",
+    "host": "54.254.65.133",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "admin",
+    "password": "db@admin",
+    "database": "resgis_db",
+    "host": "54.254.65.133",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "admin",
+    "password": "db@admin",
+    "database": "resgis_db",
+    "host": "54.254.65.133",
+    "dialect": "mysql"
+  }
+}
