@@ -75,7 +75,6 @@ const update = catchAsync(async(req,resp)=>{
     });
   });
 })
-
 const deleted = catchAsync(async(req,resp)=>{
 const id=req.body.id
 await userService.deleted(id)

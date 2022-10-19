@@ -8,8 +8,12 @@ const userRoute=require("./router")
 const ApiError = require('./utils/ApiError');
 const logger = require("./config/logger");
 const log_reqres =require('./config/reqreslog')
+var corsOptions = {
+  origin: 'http://localhost:8080',
+  optionsSuccessStatus: 200 // For legacy browser support
+}
 app.use(express.json());
-
+app.use(cors(corsOptions))
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true }));
 
