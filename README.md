@@ -1,9 +1,9 @@
-## How to setup  Project 
+## Clone Project 
     git clone 
 
 <hr/>
 
-## Installation from npm with MYSQL driver
+## New Installation from npm with MYSQL driver
     npm init 
     npm install --save sequelize mysql2 sequelize-cli express body-parser
     sequelize init or sequelize-cli init   or npx  sequelize-cli init 
