@@ -1,6 +1,7 @@
 ## How to setup  Project 
     git clone 
 
+<hr/>
 
 ## Installation from npm
     npm install 
